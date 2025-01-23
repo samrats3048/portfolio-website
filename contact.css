@@ -1,0 +1,119 @@
+   
+   *{
+    margin:0 auto;
+    padding:0;
+    box-sizing: border-box;
+   }
+   
+   body{
+       
+        background-color:aliceblue;
+        font-family: Arial, Helvetica, sans-serif;
+        /* height: 100vh; */
+       background-color: #eacdc7;
+        }
+
+main{
+    display:flex;
+    flex:auto;
+    width:100%;
+    margin-top:2em;
+    top:0;
+}
+
+section{
+    top:0;
+    padding:1em;
+    width:45%;
+    /* padding-bottom: 7em;
+    padding-top:4em; */
+    background-color:pink;
+    align-items: center;
+    margin:0;
+    padding-top:2em;
+    text-align: center;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 300;
+    font-size: 2em;
+  
+    
+}
+.profile-pic{
+    max-width: 85%;
+    padding:0;
+}
+
+
+
+ /* Sign up form */
+.signupForm{
+    width:45%;
+    margin: 0;
+}
+
+.form-container{
+    background-color:#f9e076;
+    
+    width:100%;
+    padding:4em;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px;
+}
+
+.form-header{
+    text-align: center;
+    font-size: 2em;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 500;
+}
+
+.form-group{
+    margin-bottom:20px;
+
+
+}
+input,
+select,
+textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 6px;
+font-size: 16px;
+color: #333;
+}
+input:focus,
+select:focus,
+textarea:focus {
+border-color: #4a90e2;
+outline: none;
+}
+
+textarea {
+resize: vertical;
+min-height: 100px;
+}
+
+.help-text {
+margin-top: 6px;
+font-size: 14px;
+color: #666;
+}
+
+    button {
+    width: 100%;
+    padding: 12px;
+    background: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    }
+    button:hover {
+    background: #357abd;
+    }
+
+
+

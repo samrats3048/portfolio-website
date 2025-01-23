@@ -1,0 +1,31 @@
+
+* {box-sizing: border-box}
+
+body {font-family: Verdana, sans-serif; margin:0}
+
+.container{
+    background-color: paleturquoise;    
+    display:flex;
+     flex:auto;
+    padding:10px;
+}
+
+.prjs{
+    background-color: palegreen;
+   margin:20px;
+    padding:20px;
+   width: 20%;
+}
+section > h3{
+    background-color: #424874;
+    color:black;
+    text-decoration: none;
+    display: inline;
+    padding:20px;
+    margin:30px;
+  
+  }
+  
+  footer{
+    margin:50px;
+  }
